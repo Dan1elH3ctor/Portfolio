@@ -4,45 +4,80 @@
     <meta charset="UTF-B">
     <meta http-equiv="X-UA-compatible" content="It-edge">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <img style="width:350px ;" src="https://i.postimg.cc/85LcsWyv/Ogre.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#resume">resume</a></li>
-                <li><a href="#project">project</a></li>
-                <li><a href="#contact">contact</a></li>
+        <img class="logo" src="https://i.postimg.cc/Gm4Rjm9t/skull-gaming-with-joy-stick-emblem-modern-style-32991-492.webp" alt="logo">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#home">home</a></li>|
+                <li><a href="#resume">resume</a></li>|
+                <li><a href="#project">project</a></li>|
+                <li><a href="#contact">contact</a></li>|
             </ul>
         </nav>
     </header>
     <main>
         <!--Home-->
         <section id="home">
-            <h2>home</h2>
-            <div>
+            <h2>Home</h2>
+            <div class="wrapper">
                 <h4>Daniel Hector</h4>
-                <img style="width:350px ;" src="https://i.postimg.cc/d1D1mpt8/soul.jpg" alt="soul">
-                <p>Character Designer</p>
+                <img src="https://i.postimg.cc/85LcsWyv/Ogre.jpg" alt="soul">
+                <p>
+                    <strong>About</strong>
+                    <br>My name is Daniel Hector, i am a self-taught artist. my interest in art started at the age of 6 when I first laid eyes on my brother's artworks. He was "naturally talented",<br> whereas I started out tracing before I dived into freehand drawing. Through the years my skills gradually improved with accuracy and realism. I have dabbled in many mediums i.e. pencil drawing, painting <br>(acrylic, oil & gouache paints), clay sculpting, wood carving and digital drawing/painting. 
+                </p>
+                <p>Aspiring Developer</p>
             </div>
         
         </section>
         <!--Resume-->
         <section id="resume">
-            <h2>resume</h2>
+            <h2>Resume</h2>
+            <p>
+                <strong>Education:</strong><br>
+                <em>Lotus High school</em> - January 2008-December 2013 (admission to bachelors)<br>
+                <br>
+                <strong>Work Experience:</strong><br>
+                <em>St George's Grammar School  Prepatory Art Department</em> Classroom Assistant - July 2017-December 2019<br>
+                Duties: Setup & preparation of all classes, grade pre R to grade 7, including classroom management.<br> Assisting with planning lessons for each term, study notes and formal assessments for intermediate phase students.<br>
+                <br>
+                <em>St George's Grammar School  Prepatory Art Department</em> Part-time Assistant - March 2020-September 2021<br>
+                During lockdown of 2020 I was personally requested and employed by the Prepatory Art Teacher at the time; Tami-Lee Kleinsmith
+                to assist with the transition to online learning.<br> My responsibilities remained the same as when i was employed full time for the school only now adapting it for online learning so that students could access lessons through the internet.<br>
+            </p>
 
         </section>
         <!--Project-->
         <section id="project">
-            <h2>project</h2>
+            <h2>Project</h2>
 
         </section>
         <!--Contact-->
         <section id="contact">
-            <h2>contact</h2>
-
+            <h2>Contact</h2>
+            <div class="container">
+                <form action="https://formspree.io/f/mvoyrloq" method="post">
+                    <div>
+                        <label for="#firstname">Name</label>
+                        <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label for="#surname">Surname</label>
+                        <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+                    </div>
+                    <div>
+                        <label for="#message">Message</label>
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
