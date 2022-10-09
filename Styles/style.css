@@ -17,13 +17,30 @@ header, footer {
 .logo {
     width: 7em;
 }
+.image {
+    width: 12em;
+    display: block;
+    margin: 15px auto;
+}
+.infoline {
+    text-align: center;
+}
 /*place the menu to the right of the page*/
 .menu {
     /*margin: auto 0;*/
     align-items: flex-end;
     margin: 5px 10px 0;
 }
-
+.portfolio {
+    text-align: center;
+}
+.lifechoices {
+    text-align: center;
+}
+.projects {
+    margin: 0;
+    padding: 0;
+}
 /* navbar */
 .menu-list {
     display: inline-flex;
@@ -42,6 +59,13 @@ h1, h2, h3, h4, h4, h6 {
 #home {
     background-color: rgba(106, 115, 92, 2);
 }
+#resume {
+    background-color: rgb(146, 158, 127) ;
+}
+#project {
+    background-color: rgb(173, 186, 152);
+}
+
 .wrapper img {
     display: block;
     margin: 15px auto;
@@ -63,4 +87,7 @@ h1, h2, h3, h4, h4, h6 {
 }
 #resume {
     text-align: center;
+}
+.menu-list {
+    font-size: 25px;
 }
