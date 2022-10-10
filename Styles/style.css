@@ -18,7 +18,7 @@ header, footer {
     width: 7em;
 }
 .image {
-    width: 12em;
+    width: 7em;
     display: block;
     margin: 15px auto;
 }
@@ -69,6 +69,7 @@ h1, h2, h3, h4, h4, h6 {
 .wrapper img {
     display: block;
     margin: 15px auto;
+    width: 18em;
 }
 .wrapper p {
     text-align: center;
