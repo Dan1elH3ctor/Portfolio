@@ -1,94 +1,55 @@
-/*select all elements*/
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
 }
-/*header, main, footer*/
-header, main, footer {
-    min-width: 100%;
-}
-/*header*/
 header, footer {
     display: inline-flex;
     justify-content: space-between;
-    background-color: darkgray;
+    background-color: grey;
 }
-.logo {
-    width: 7em;
+header, main, footer {
+    min-width: 100%;
 }
-.image {
-    width: 7em;
-    display: block;
-    margin: 15px auto;
-}
-.infoline {
-    text-align: center;
-}
-/*place the menu to the right of the page*/
-.menu {
-    /*margin: auto 0;*/
-    align-items: flex-end;
-    margin: 5px 10px 0;
-}
-.portfolio {
-    text-align: center;
-}
-.lifechoices {
-    text-align: center;
-}
-.projects {
-    margin: 0;
-    padding: 0;
-}
-/* navbar */
-.menu-list {
-    display: inline-flex;
+nav>ul>li {
     list-style: none;
-}
-.menu-list li {
-    padding: 0 8px;
-}
-/*main*/
-/*heading*/
-h1, h2, h3, h4, h4, h6 {
-    text-align: center;
-    margin-bottom: 15px;
-}
-/*home*/
-#home {
-    background-color: rgba(106, 115, 92, 2);
-}
-#resume {
-    background-color: rgb(146, 158, 127) ;
-}
-#project {
-    background-color: rgb(173, 186, 152);
-}
-
-.wrapper img {
-    display: block;
-    margin: 15px auto;
-    width: 18em;
-}
-.wrapper p {
-    text-align: center;
-}
-.container {
-    display: block;
-    margin: 15px auto;
-}
-.container {
-    width: 240px;
-    clear: both;
-}  
-.container input {
-    width: 100%;
-    clear: both;
-}
-#resume {
-    text-align: center;
-}
-.menu-list {
     font-size: 25px;
+    display: inline-flex;
+    margin: 0 5px;
+}
+header>img {
+    width: 7em;
+    padding: 5px;
+    margin: 5px;
+    border: 10px solid rgba(97, 192, 239, 0.564)
+}
+/* background image */
+body {
+    background-image: url();
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section>h1 {
+    text-align: center;
+}
+/* home image */
+div>img {
+    float: left;
+    width: 10em;
+    margin: 0 5px 0 0;
+}
+.aboutme>h2, h3 {
+    color: darkslategray;
+    background-color: rgba(97, 192, 239, 0.564);
+    border-radius: 30px;
+    width: 300px;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    display: flex;
+    text-shadow: 2px 2px rgba(139, 138, 138, 0.703);
+} 
+.aboutme {
+    margin: 0 0 10px 0;
 }
