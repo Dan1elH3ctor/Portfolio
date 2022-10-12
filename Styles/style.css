@@ -106,3 +106,20 @@ footer {
     justify-content: center;
     color: aqua;
 }
+.divsection {
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+}
+.projects>p {
+    text-align: center;
+}
+.portfolio>img {
+    width: 10px;
+    margin: 5px 5px;
+}
+.lifechoices>img {
+    width: 10px;
+    margin: 5px 5px;
+}
