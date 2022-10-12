@@ -7,35 +7,35 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body class="wrap">
     <header>
         <img src="https://i.postimg.cc/Gm4Rjm9t/skull-gaming-with-joy-stick-emblem-modern-style-32991-492.webp" alt="logo">
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>|
-                <li><a href="#resume">Resume</a></li>|
-                <li><a href="#project">Project</a></li>|
-                <li><a href="#contact">Contact</a></li>|
+                <li><i class="fa-sharp fa-solid fa-house-chimney"></i><a href="#Home">Home</a></li>|
+                <li><i class="fa-solid fa-user"></i><a href="#Resume">Resume</a></li>|
+                <li><i class="fa-solid fa-briefcase"></i><a href="#Project">Project</a></li>|
+                <li><i class="fa-sharp fa-solid fa-phone"></i><a href="#Contact">Contact</a></li>|
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="content">
         <!--Home-->
-        <section>
-            <h1><u>Home</u></h1>
+        <section class="section1">
+            <h1 id="Home"><u>Home</u></h1>
             <div class="aboutme">
                 <img src="https://i.postimg.cc/Pxk01QX4/Daniel.jpg" alt="Daniel">
                 <h2>Daniel Hector</h2>
                 <h3>Aspiring Developer</h3>
                 <p>
-                    <b>About</b>
-                    <br>My name is Daniel Hector, i am a self-taught artist. my interest in art<br> started at the age of 6 when I first laid eyes on my brother's artworks.<br> He was "naturally talented", whereas I started out tracing before I dived<br> into freehand drawing. Through the years my skills gradually improved<br> with accuracy and realism. I have dabbled in many mediums i.e. pencil drawing, <br>painting (acrylic, oil & gouache paints), clay sculpting, wood carving and digital drawing/painting.<br>
+                    <b>About</b><br>
+                     I am a self-taught artist. my interest in art started at the age of 6<br> when I first laid eyes on my brother's artworks. He is "naturally talented",<br> whereas I started out tracing before I dived into freehand drawing. Through the years<br> my skills gradually improved with accuracy and realism. I have dabbled in many mediums<br> i.e. pencil drawing, painting (acrylic, oil & gouache paints), clay sculpting, wood carving<br> and digital drawing/painting.<br>My interest in coding started with my love for gaming. Seeing how gaming graphics and capabilities<br> have improved drew me towards learning how the final product is put together.<br> It was then that i realised if i wanted to play any part in game design i would need coding skills.
                 </p>
             </div>
         </section>
         <!--Resume-->
         <section class="resume">
-            <h1><u>Resume</u></h1>
+            <h1 id="Resume"><u>Resume</u></h1>
             <p>
                 <strong>Education:</strong><br>
                 <em>Lotus High school</em> - January 2008-December 2013 (admission to bachelors)<br>
@@ -48,10 +48,13 @@
                 During lockdown of 2020 I was personally requested and employed by the Prepatory Art Teacher at the time; Tami-Lee Kleinsmith
                 to assist with the transition to online learning.<br> My responsibilities remained the same as when i was employed full time for the school only now adapting it for online learning so that students could access lessons through the internet.<br>
             </p>
+            <div>
+                <h4>Skills</h4>
+            </div>
         </section>
         <!--Project-->
         <section>
-            <h1><u>Project</u></h1>
+            <h1 id="Project"><u>Project</u></h1>
             <p>
                 Here are some Projects I am working on!
             </p>
@@ -70,7 +73,7 @@
         </section>
         <!--Contact-->
         <section>
-            <h1><u>Contact</u></h1>
+            <h1 id="Contact"><u>Contact</u></h1>
             <div>
                 <form action="https://formspree.io/f/mvoyrloq" method="post">
                     <div>
@@ -92,6 +95,7 @@
             </div>
         </section>
     </main>
+    <script src="https://kit.fontawesome.com/ac9f6ca557.js" crossorigin="anonymous"></script>
 </body>
 <footer>
     copyright &copy; 2022
